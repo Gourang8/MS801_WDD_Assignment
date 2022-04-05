@@ -65,6 +65,9 @@ window.open("testimonials.html", "_self");
 if (href === "offers.html")
 window.open("offers.html", "_self");
 
+if (href === "index.html")
+window.open("index.html", "_self");
+
     // Scroll to other links
     // if (href !== "#" && href.startsWith("#")) {
     //   const sectionEl = document.querySelector(href);
