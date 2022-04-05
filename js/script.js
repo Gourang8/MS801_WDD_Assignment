@@ -44,11 +44,32 @@ allLinks.forEach(function (link) {
         behavior: "smooth",
       });
 
+      if (href === "artists.html")
+window.open("artists.html", "_self");
+
+if (href === "services.html")
+window.open("services.html", "_self");
+
+if (href === "gallery.html")
+window.open("gallery.html", "_self");
+
+if (href === "booknow.html")
+window.open("booknow.html", "_self");
+
+if (href === "signup.html")
+window.open("signup.html", "_self");
+
+if (href === "testimonials.html")
+window.open("testimonials.html", "_self");
+
+if (href === "offers.html")
+window.open("offers.html", "_self");
+
     // Scroll to other links
-    if (href !== "#" && href.startsWith("#")) {
-      const sectionEl = document.querySelector(href);
-      sectionEl.scrollIntoView({ behavior: "smooth" });
-    }
+    // if (href !== "#" && href.startsWith("#")) {
+    //   const sectionEl = document.querySelector(href);
+    //   sectionEl.scrollIntoView({ behavior: "smooth" });
+    // }
 
 
     // Close mobile naviagtion
