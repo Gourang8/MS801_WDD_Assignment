@@ -193,26 +193,26 @@
 }
 
 /**************************/
-/* HOW IT WORKS SECTION */
+/* ARTIST SECTION */
 /**************************/
 
-.section-how {
+.section-artist {
   padding: 9.6rem 0;
 }
 
-.step-number {
+.artist-name {
   font-size: 8.6rem;
   font-weight: 600;
   color: #45260a;
   margin-bottom: 1.2rem;
 }
 
-.step-description {
+.artist-description {
   font-size: 1.8rem;
   line-height: 1.8;
 }
 
-.step-img-box {
+.artist-img-box {
   position: relative;
 
   display: flex;
@@ -220,8 +220,8 @@
   justify-content: center;
 }
 
-.step-img-box::before,
-.step-img-box::after {
+.artist-img-box::before,
+.artist-img-box::after {
   content: "";
   display: block;
   border-radius: 50%;
@@ -231,7 +231,7 @@
   transform: translate(-50%, -50%);
 }
 
-.step-img-box::before {
+.artist-img-box::before {
   width: 60%;
   /* height: 60%; */
 
@@ -242,14 +242,14 @@
   z-index: -2;
 }
 
-.step-img-box::after {
+.artist-img-box::after {
   width: 45%;
   padding-bottom: 45%;
   background-color: #fae5d3;
   z-index: -1;
 }
 
-.step-img {
+.artist-img {
   width: 35%;
   /* z-index: 10; */
 }
