@@ -29,7 +29,7 @@ Large: 1.8
 #fae5d3
 #eb984e
 
-- Shades: 
+- Shades:
 #cf711f
 #45260a
 
@@ -149,7 +149,7 @@ body {
 }
 
 .heading-secondary {
-  font-size: 4.4rem;
+  font-size: 1.6rem;
   line-height: 1.2;
   margin-bottom: 9.6rem;
 }
@@ -162,7 +162,8 @@ body {
 
 .subheading {
   display: block;
-  font-size: 1.6rem;
+
+  font-size: 4.4rem;
   font-weight: 500;
   color: #cf711f;
   text-transform: uppercase;
