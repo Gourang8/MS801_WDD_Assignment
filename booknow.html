@@ -28,7 +28,7 @@
   ></script> -->
   <script defer src="js/script.js"></script>
 
-  <title>Sign Up - FAWN</title>
+  <title>Book Now - FAWN</title>
 </head>
 
 <body>
@@ -55,16 +55,19 @@
     </button>
   </header>
 
-  <section class="section-cta" id="cta">
+  <section class="section-abc" id="abc">
     <div class="container">
-      <div class="cta">
-        <div class="cta-text-box">
-          <h2 class="heading-secondary">Get your first HAIR CUT for free!</h2>
-          <p class="cta-text">
+      <div class="abc">
+        <div class="abc-text-box">
+          <h2 class="heading-secondary">CONFIRM YOUR BOOKING !</h2>
+          <p class="abc-text">
             The salon that leaves smile on your face. We aim to please. Make yourself worthy. Do come and experience.
           </p>
+          <p class="abc-text">
+            Please call 415-201-6370 in case of any queries.
+          </p>
 
-          <form class="cta-form" name="sign-up" netlify>
+          <form class="abc-form" name="sign-up" netlify>
             <div>
               <label for="full-name">Full Name</label>
               <input id="full-name" type="text" placeholder="John Smith" name="full-name" required />
@@ -76,24 +79,51 @@
             </div>
 
             <div>
-              <label for="select-where">Where did you hear from us?</label>
+              <label for="mobile">Mobile Number</label>
+              <input id="mobile" type="mobile" placeholder="0XXXXXXXXX" name="mobile" required />
+            </div>
+
+            <div>
+              <label for="date">Date</label>
+              <input id="date" type="date" placeholder="YYYY-MM-DD" name="date" required />
+            </div>
+
+            <div>
+              <label for="time">Time</label>
+              <input id="time" type="time" placeholder="HH:MM (24 hrs system)" name="time" required />
+            </div>
+
+            <div>
+              <label for="select-where">Which service would you like to book ?</label>
               <select id="select-where" name="select-where" required>
                 <option value="">Please choose one option:</option>
-                <option value="friends">Friends and family</option>
-                <option value="youtube">YouTube video</option>
-                <option value="podcast">Podcast</option>
-                <option value="ad">Facebook ad</option>
-                <option value="others">Others</option>
+                <option value="option1">Hair Cut</option>
+                <option value="option2">Facial</option>
+                <option value="option3">Waxing</option>
+                <option value="option4">Nails</option>
+                <option value="option5">Hair Care</option>
               </select>
             </div>
 
-            <button class="btn btn--form">Sign up now</button>
+            <div>
+              <label for="select-where">Looking for specific artist?</label>
+              <select id="select-where" name="select-where" required>
+                <option value="">Please choose one option:</option>
+                <option value="option1">Achintya K</option>
+                <option value="option2">Gourang J</option>
+                <option value="option3">Vishesh S</option>
+                <option value="option4">Rupika K</option>
+                <option value="option5">Virat G</option>
+              </select>
+            </div>
+
+            <button class="btn btn--form">PROCEED TO PAYMENT</button>
 
             <!-- <input type="checkbox" />
                 <input type="number" /> -->
           </form>
         </div>
-        <div class="cta-img-box" role="img" aria-label="Woman enjoying food"></div>
+        <div class="abc-img-box" role="img" aria-label="Woman enjoying food"></div>
       </div>
     </div>
   </section>
